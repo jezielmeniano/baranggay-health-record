@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(30, 30px,100%);
+   
+   
+}
+
+.panel:first-child{
+    background-color: rgb(5, 169, 5);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 2%;
+    grid-column: 1/31;
+}
+
+.panel a{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   gap: 10px;
+   padding: 13px;
+   color: black;
+}
+
+.panel:nth-child(2){
+   display: flex;
+   justify-content: center;
+   border-right: 2px solid rgba(0, 0, 0, 0.236);
+   border-bottom: 2px solid rgba(0, 0, 0, 0.236);
+   grid-column: 1/2;
+}
+
+.panel:nth-child(3){
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.236);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.236);
+    grid-column: 1/2;
+ }
+
+ .panel:nth-child(4){
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.236);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.236);
+    grid-column: 1/2;
+ }
+
+ .panel:nth-child(5){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid rgba(0, 0, 0, 0.236);
+    grid-column: 1/2;
+    grid-row: 5/6;
+    height: 403px;
+ }
+
+ .panel:nth-child(6){
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    margin-right: 40px ;
+    border: 2px solid green;
+    grid-column: 3/30;
+    grid-row: 2/6;
+
+ }
+
+ .panel:nth-child(2):hover{
+   background-color: rgb(220, 213, 213);
+}
+
+.panel:nth-child(3):hover{
+   background-color: rgb(220, 213, 213);
+}
+
+.panel:nth-child(4):hover{
+   background-color: rgb(220, 213, 213);
+}
+
+.panel:nth-child(2):active{
+   background-color: rgb(181, 176, 176);
+}
+
+.panel:nth-child(3):active{
+   background-color: rgb(181, 176, 176);
+}
+
+.panel:nth-child(4):active{
+   background-color: rgb(181, 176, 176);
+}
+ .title h3{
+    margin: 0;
+   background-color: green;
+   padding: 7px;
+ }
+
+ .add-search{
+    display: flex;
+    padding: 25px ;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ .add-search button{
+    background-color: rgb(15, 229, 15);
+    width: 97px;
+    padding: 7px;
+    border-radius: 15px;
+    border-style: none;
+    cursor: pointer;
+ }
+
+ .add-search button:hover{
+   background-color: rgb(7, 246, 7);
+ }
+
+ .add-search button:active{
+   background-color: rgb(55, 255, 0);
+ }
+
+
+ .search1 button{
+    padding: 5px;
+    width: 30px;
+ }
+
+ table {
+    border-collapse: collapse;
+    margin-right: 10px;
+    width: 100%;
+   
+    
+  }
+
+  th,td {
+    border: 1px solid gray;
+    text-align: center;
+    padding: 8px;
+  }
+
+  td button{
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ta-container{
+   padding-left: 15px ;
+   padding-right: 15px;
+
+}
+
+.head-ta{
+   background-color: rgb(13, 213, 13);
+   height: 15px;
+}
+
+.view-button{
+   color: aliceblue;
+   background-color: green;
+   cursor: pointer;
+}
+
+.view-button:hover{
+   background-color: rgb(10, 181, 10);
+}
+
+.view-button:active{
+   background-color: rgb(14, 230, 14);
+}
+
+.edit-button{
+   color: aliceblue;
+   background-color: blue;
+}
+
+.edit-button:hover{
+   background-color: rgb(13, 13, 215);
+}
+
+.edit-button:active{
+   background-color: rgb(29, 29, 179);
+}
+
+.delete-button{
+   background-color: red;
+   color: aliceblue;
+}
+
+.delete-button:hover{
+   background-color: rgb(211, 19, 19);
+}
+
+.delete-button:active{
+   background-color: rgb(188, 51, 51);
+}
+
